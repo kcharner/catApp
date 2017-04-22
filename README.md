@@ -1,21 +1,22 @@
 # catApp
 
-Opportunity
+## Opportunity
 
 This application is designed to make free lance project be more efficient and successful. This project creates a platform for developer and client to share information, agree on milestones, and track progress. Furthermore it propmts developers to use well vetted coding methodologies so small scale projects are as well thought out as large enterprise projects.
 
-Key Features
+## Key Features
   Centralized client and developer communication
   Centralized project planning and management
   
-Competition
+## Competition
     http://www.skilledup.com/articles/best-project-management-apps-for-web-development
     
-Sketches of MVP
+## Sketches of MVP
     https://docs.google.com/document/d/1ZReMVgkKWswgaN2kdN2jVnBg7AEowZrNWwRcCj_kSvw/edit?usp=sharing
     
-Database Architecture
-  MYSQL database
+## Database Architecture
+  
+MYSQL database
   
 Tables
  
@@ -62,7 +63,7 @@ SprintsTable
 
 
 
-User Acquisition
+## User Acquisition
 
  This application is intended for private use
  Users will be added on a project-by-project basis
