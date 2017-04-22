@@ -60,8 +60,6 @@ SprintsTable
  These tables contain the data to process login requests and provided information about web development projects and their 
   components
 
-Diagrams
-  
 
 
 User Acquisition
