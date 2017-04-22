@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cat Project Management</title>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- fonts -->
+</head>
+<body>
+	<!-- <nav class="navbar navbar-default">
+	    <div class="container-fluid"> -->
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <!-- <div class="navbar-header">
+		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand" href="#">forcynthia</a>
+		    </div>
+	  	</div> --><!-- /.container-fluid -->
+	<!-- </nav> -->
+	<div class="jumbtron">
+		<div class="container">
+			<h1>APP NAME</h1>
+			<p>web development management app designed to simplify project planning, client communication and meeting deadlines.</p>
+			<button type="button" class="standardBtn" data-toggle="modal" data-target="#signInModal">
+		  	Sign-In</button>
+			<!-- start modal 1: sign-in -->
+		  	<div id="signInModal" class="modal fade">
+		  	    <div class="modal-dialog" role="document">
+		  	        <div class="modal-content">
+		  	            <div class="modal-header">
+		  	                <h5 class="modal-title">Sign-In</h5>
+		  	     		</div>
+		  	      		<div class="modal-body">
+			  	        	<form class="signInForm" action="/login" method="post" role="form">
+				  	            <div class="form-group">
+				  	                <label for="email">Email Address</label>
+				  	                <input type="text" name="email" class="form-control" id="email" placeholder="janedoe@cat.com" required/>
+				  	            </div>
+				  	            <div class="form-group">
+				  	                <label for="password">Password</label>
+				  	                <input type="password" name="password" class="form-control" id="password" placeholder="*****" required/>
+				  	            </div>
+			  	        	</form>
+		  	      		</div>
+			  	      	<div class="modal-footer">
+				  	        <button id="signIn" type="submit" id="submit" class="btn btn-primary" value="Sign-In">Sign-In</button>
+				  	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+			  	      	</div>
+		  	    	</div>
+		  	  	</div>
+		  	</div> <!-- end modal -->
+		  	<button type="button" class="standardBtn" data-toggle="modal" data-target="#newUserModal">Create Account</button>
+		  	<!-- start modal 2: create account -->
+		  	<div id="newUserModal" class="modal fade">
+		  	  	<div class="modal-dialog" role="document">
+		  	    	<div class="modal-content">
+		  	      		<div class="modal-header">
+		  	        		<h5 class="modal-title">Create Account</h5>
+		  	      		</div>
+			  	      	<div class="modal-body">
+			  	        	<form action="/newUser" method="post" role="form">
+			                    <div class="form-group">
+			                    	<label for="first_name">First Name</label>
+			                    	<input type="text" name="first_name" class="form-control" id="firstName" placeholder="Jane" required/>
+			                    </div>
+			                    <div class="form-group">
+				                    <label for="last_name">Last Name</label>
+				                    <input type="text" name="last_name" class="form-control" id="lastName" placeholder="Doe" required/>
+			                    </div>
+				                <div class="form-group">
+					                <label for="email">Email Address</label>
+					                <input type="text" name="email" class="form-control" id="newUserEmail" placeholder="janedoe@cats.com" required/>
+				                </div>
+				                <div class="form-group">
+					                <label for="password">Password</label>
+					                <input type="password" name="password" class="form-control" id="newUserPassword" placeholder="*****" required/>
+				                </div>
+	            			</form>
+	           			</div>
+			  	        <div class="modal-footer">
+			  	        	<button id="createBtn" type="submit" id="submit" class="btn btn-primary" value="Register">Register</button>
+			  	        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  	        </div>
+		  	    	</div>
+		  	  	</div>
+		  	</div> <!-- end modal -->
+		</div>
+	</div>
+	<footer>
+		<h4>Copyright 2017 kac</h4>
+	</footer>
+
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>			
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
