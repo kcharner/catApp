@@ -5,8 +5,8 @@
 This application is designed to make free lance project be more efficient and successful. This project creates a platform for developer and client to share information, agree on milestones, and track progress. Furthermore it propmts developers to use well vetted coding methodologies so small scale projects are as well thought out as large enterprise projects.
 
 ## Key Features
-  Centralized client and developer communication
-  Centralized project planning and management
+  * Centralized client and developer communication
+  * Centralized project planning and management
   
 ## Competition
     http://www.skilledup.com/articles/best-project-management-apps-for-web-development
