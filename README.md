@@ -65,6 +65,6 @@ SprintsTable
 
 ## User Acquisition
 
- This application is intended for private use
- Users will be added on a project-by-project basis
- Application design will be built with scalability in mind
+ * This application is intended for private use
+ * Users will be added on a project-by-project basis
+ * Application design will be built with scalability in mind
