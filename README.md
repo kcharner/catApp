@@ -18,14 +18,14 @@ This application is designed to make free lance project be more efficient and su
   
 MYSQL database
   
-Tables
+### Tables
  
-USERS
-	userid
-	password/hash
-	email
-	first_name
-	user_type
+###### USERS
+	* userid
+	* password/hash
+	* email
+	* first_name
+	* user_type
  
  
 PROJECTS
