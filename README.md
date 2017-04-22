@@ -28,34 +28,34 @@ MYSQL database
 	* user_type
  
  
-PROJECTS
-	project_id
-	project_name
-	start_date
-	status (boolean)
-	Project_manager (FK, USerID)
+###### PROJECTS
+	* project_id
+	* project_name
+	* start_date
+	* status (boolean)
+	* Project_manager (FK, USerID)
 	
  
-Membership
-	USERID (FK)
-	PROJECTID(FK)
+###### Membership
+	* USERID (FK)
+	* PROJECTID(FK)
  
-Files
-	FileID
-	FileName
-	Uploader (FK, User)
+###### Files
+	* FileID
+	* FileName
+	* Uploader (FK, User)
  
-Tasks
-	taskid
-	taskName
-	projects(id)
-	usersid
+###### Tasks
+	* taskid
+	* taskName
+	* projects(id)
+	* usersid
  
-SprintsTable
-	sprinted
-	sprintname
-	tasks(id)
-	deadline
+###### SprintsTable
+	* sprinted
+	* sprintname
+	* tasks(id)
+	* deadline
  
     
  These tables contain the data to process login requests and provided information about web development projects and their 
