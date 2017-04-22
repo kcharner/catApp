@@ -1,4 +1,4 @@
-# catApp
+# catApp Project Management Tool
 
 ## Opportunity
 
